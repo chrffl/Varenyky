@@ -1,7 +1,7 @@
-
 google-adk
 openpyxl
 python-dotenv
-reportlab
-Pillow
 pytest
+reportlab
+pypdf
+Pillow

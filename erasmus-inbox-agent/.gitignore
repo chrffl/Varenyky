@@ -3,3 +3,5 @@ filed/
 students.xlsx
 __pycache__/
 .venv/
+.adk/
+drafts/

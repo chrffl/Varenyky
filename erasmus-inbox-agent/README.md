@@ -38,3 +38,28 @@ We are building an AI agent that does this automatically:
 ## Demo (3 minutes)
 
 Drop 10 messy emails in, press go: renamed files appear in folders, the spreadsheet fills up, and the agent answers a student question live.
+
+## How to run
+
+```bash
+# 1. virtual environment
+python -m venv .venv
+.venv\Scripts\activate        # Windows
+# source .venv/bin/activate   # Linux/macOS
+
+# 2. dependencies
+pip install -r requirements.txt
+
+# 3. environment: copy .env_example to .env and fill in
+#    GOOGLE_API_KEY=...        (Gemini API key)
+#    ERASMUS_MODEL=gemini-2.5-flash   (or another available Gemini model)
+
+# 4. generate 10 fake emails with PDF attachments into inbox/
+python scripts/generate_samples.py
+
+# 5. run the agent (ADK dev UI)
+adk run erasmus_inbox
+
+# 6. run the offline tests (no API key needed)
+python -m pytest tests/ -v
+```
