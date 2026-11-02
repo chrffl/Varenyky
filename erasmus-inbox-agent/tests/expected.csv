@@ -1,0 +1,11 @@
+email_file,action,surname,name,doc_type,academic_year,host_university,start_date,end_date,expected_filename
+01_signed_learning_agreement.eml,file,Kalnina,Anna,LearningAgreement,2026-27,TU Delft,2027-02-01,2027-06-30,Kalnina_Anna_LearningAgreement_2026-27.pdf
+02_no_subject_jpg_transcript.eml,file,Berzins,Janis,Transcript,2026-27,University of Vienna,2026-09-01,2027-01-31,Berzins_Janis_Transcript_2026-27.jpg
+03_insurance_vague_filename.eml,file,Rossi,Maria,Insurance,2026-27,Universidad de Salamanca,2026-09-15,2027-02-15,Rossi_Maria_Insurance_2026-27.pdf
+04_certificate_of_arrival.eml,file,Hoffmann,Lena,CertificateOfArrival,2026-27,Aalto University,2026-09-01,2027-01-31,Hoffmann_Lena_CertificateOfArrival_2026-27.pdf
+05_question_deadline.eml,answer_faq,,,,,,,,
+06_question_not_in_faq.eml,escalate,,,,,,,,
+07_diacritics_name.eml,file,Nunez,Jose,LearningAgreement,2026-27,Politecnico di Milano,2027-02-15,2027-07-15,Nunez_Jose_LearningAgreement_2026-27.pdf
+08_name_only_in_body.eml,file,Wojcik,Katarzyna,Insurance,2026-27,University of Copenhagen,2026-09-01,2027-01-31,Wojcik_Katarzyna_Insurance_2026-27.pdf
+09_second_document_same_student.eml,file,Kalnina,Anna,Insurance,2026-27,TU Delft,2027-02-01,2027-06-30,Kalnina_Anna_Insurance_2026-27.pdf
+10_unreadable_scan.eml,escalate,,,,,,,,

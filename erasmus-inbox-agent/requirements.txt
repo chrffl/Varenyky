@@ -1,0 +1,7 @@
+
+google-adk
+openpyxl
+python-dotenv
+reportlab
+Pillow
+pytest
